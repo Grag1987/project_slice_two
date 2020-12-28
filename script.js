@@ -57,7 +57,13 @@ function _load() {
     deleteButtons[i].addEventListener("click", deleteRow); 
   };
   
-
+  // Extra task TODO: vegyuk le a szerkeszthetoseget a sorokrol es csak az edit gombra valo kattintasra lehessen szerkeszteni.
+  // 1 tegyuk szerkeszthetetlenne
+  // 2 adjunk hozza egy class nevet a root divhez
+  function myFunction() {
+    let element = document.getElementById("root");
+    element.classList.add("");
+  }
 }; //the end
   
   window.addEventListener("load", _load);
